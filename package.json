@@ -1,0 +1,27 @@
+{
+  "name": "zeroguard-ai",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "type-check": "tsc --noEmit",
+    "setup": "ts-node src/scripts/setup.ts"
+  },
+  "dependencies": {
+    "@0glabs/0g-serving-broker": "^0.1.0",
+    "@types/crypto-js": "4.2.2",
+    "add": "^2.0.6",
+    "crypto-js": "4.2.0",
+    "dotenv": "^16.4.5",
+    "envalid": "^8.0.0",
+    "ethers": "^6.11.1",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
