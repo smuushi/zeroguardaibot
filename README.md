@@ -1,13 +1,26 @@
-# telegram-bot
+# ZeroGuard AI 🛡️
 
-## Environment Variables Setup
+A decentralized AI-powered Telegram bot that helps protect group chats from scams and harmful content, with a special focus on detecting DM-based fraud attempts.
 
-`doppler setup`
+## Features
 
-Select the `telegram-bot` environment
+- 🤖 AI-powered message analysis
+- 🔍 Real-time scam detection
+- ⚠️ Automatic warning system
+- 🛡️ Special focus on DM-based fraud prevention
+- 🌐 Powered by decentralized 0G Network
 
-## Production Deployment
+## Key Protections
 
-The bot is deployed to Railway here
+The bot actively monitors for:
 
-https://railway.app/project/8290c5c5-240d-4a8a-85c9-6589f9cbb95e/service/ccd5fca6-1e96-4575-be11-2eee865d14ed
+- DM/private chat solicitations
+- Investment scam attempts
+- Unsolicited support offers
+- Suspicious external links
+- Phishing attempts
+- Harmful content
+
+## Setup
+
+1. Create a `.env` file with:
